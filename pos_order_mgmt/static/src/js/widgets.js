@@ -23,15 +23,7 @@ odoo.define('pos_order_mgmt.widgets', function (require) {
             if (!this.pos.reloaded_order) {
                 return this._super();
             }
-            var order = this.pos.reloaded_order;
-            this.$('.pos-receipt-container').html(QWeb.render('PosTicket', {
-                widget: this,
-                pos: this.pos,
-                order: order,
-                receipt: order.export_for_printing(),
-                orderlines: order.get_orderlines(),
-                paymentlines: order.get_paymentlines(),
-            }));
+            this.$('.pos-receipt-container').html(QWeb.render('XmlReceipt', this.get_receipt_render_env()));
             this.pos.from_loaded_order = true;
         },
         click_next: function () {
