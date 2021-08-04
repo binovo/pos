@@ -19,13 +19,10 @@ odoo.define('pos_order_mgmt.widgets', function (require) {
     var DomCache = screens.DomCache;
 
     screens.ReceiptScreenWidget.include({
-        render_receipt: function () {
-            if (!this.pos.reloaded_order) {
-                return this._super();
-            }
-            this.$('.pos-receipt-container').html(QWeb.render('XmlReceipt', this.get_receipt_render_env()));
-            this.pos.from_loaded_order = true;
-        },
+        // Inheritance of 'render_receipt' removed.
+        // Add 'from_loaded_order' control on 'action_print' (OrderListScreenWidget),
+        // this function sets the reloaded order as the current order,
+        // there is no need to call 'QWeb.render' with recalculated values.
         click_next: function () {
             if (!this.pos.from_loaded_order) {
                 return this._super();
@@ -174,6 +171,9 @@ odoo.define('pos_order_mgmt.widgets', function (require) {
             var skip_screen_state = this.pos.config.iface_print_skip_screen;
             // Disable temporarily skip screen if set
             this.pos.config.iface_print_skip_screen = false;
+            // 'from_loaded_order' is set to 'false' when 'click_next' is called
+            // Called from the button 'Next Order >>' and 'show' function (this widget)
+            this.pos.from_loaded_order = true;
             this.gui.show_screen('receipt');
             this.pos.reloaded_order = false;
             // Set skip screen to whatever previous state
