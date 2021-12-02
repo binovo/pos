@@ -58,6 +58,21 @@ Configuration
   configuration to works properly. Make sure your config file is correctly set.
   See https://github.com/OCA/queue/tree/12.0/queue_job
 
+You should update your ``odoo.cfg`` file to add a new channel named
+``root.pos_picking_delayed``:
+
+
+.. code-block::
+
+  [queue_job]
+  channels = root:2,root.pos_picking_delayed:1
+
+Otherwise, you'll have a non blocking warning in your log, like this one.
+
+.. code-block::
+
+  WARNING ? odoo.addons.queue_job.jobrunner.channels: unknown channel root.pos_picking_delayed, using root channel for job 23f6b872-1d2c-4003-bd38-a8486bbec664
+
 Usage
 =====
 
@@ -109,6 +124,14 @@ This module is maintained by the OCA.
 OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
+
+.. |maintainer-legalsylvain| image:: https://github.com/legalsylvain.png?size=40px
+    :target: https://github.com/legalsylvain
+    :alt: legalsylvain
+
+Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
+
+|maintainer-legalsylvain| 
 
 This module is part of the `OCA/pos <https://github.com/OCA/pos/tree/12.0/pos_picking_delayed>`_ project on GitHub.
 

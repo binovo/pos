@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo12-addon-pos_accented_search',
         'odoo12-addon-pos_access_right',
+        'odoo12-addon-pos_cache_user_restriction',
         'odoo12-addon-pos_cash_control_multiple_config',
         'odoo12-addon-pos_cash_move_reason',
         'odoo12-addon-pos_customer_display',
@@ -21,6 +22,7 @@ setuptools.setup(
         'odoo12-addon-pos_fix_search_limit',
         'odoo12-addon-pos_fixed_discount',
         'odoo12-addon-pos_hide_banknote_button',
+        'odoo12-addon-pos_hide_empty_category',
         'odoo12-addon-pos_invoice_send_mail',
         'odoo12-addon-pos_invoicing',
         'odoo12-addon-pos_journal_image',
@@ -37,6 +39,7 @@ setuptools.setup(
         'odoo12-addon-pos_order_to_sale_order',
         'odoo12-addon-pos_partner_firstname',
         'odoo12-addon-pos_payment_change',
+        'odoo12-addon-pos_payment_method_cashdro',
         'odoo12-addon-pos_payment_terminal',
         'odoo12-addon-pos_picking_delayed',
         'odoo12-addon-pos_picking_load',
@@ -50,6 +53,7 @@ setuptools.setup(
         'odoo12-addon-pos_report_session_summary',
         'odoo12-addon-pos_require_product_quantity',
         'odoo12-addon-pos_reset_search',
+        'odoo12-addon-pos_restaurant_user_restriction',
         'odoo12-addon-pos_session_closing_stock_error',
         'odoo12-addon-pos_session_pay_invoice',
         'odoo12-addon-pos_stock_picking_invoice_link',
@@ -67,5 +71,6 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python',
         'Framework :: Odoo',
+        'Framework :: Odoo :: 12.0',
     ]
 )
