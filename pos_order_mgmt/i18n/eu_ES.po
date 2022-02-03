@@ -1,0 +1,237 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* pos_order_mgmt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-01 08:34+0000\n"
+"PO-Revision-Date: 2022-02-01 08:34+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,help:pos_order_mgmt.field_pos_config__iface_copy_done_order
+msgid "Allows to duplicate already done orders in the frontend"
+msgstr "Interfazean jada egindako eskaerak bikoizteko aukera ematen du"
+
+#. module: pos_order_mgmt
+#: model_terms:ir.ui.view,arch_db:pos_order_mgmt.view_pos_config_form
+msgid "Allows to manage already done orders in the frontend."
+msgstr "Interfazean jada egindako eskaerak kudeatzeko aukera ematen du"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,help:pos_order_mgmt.field_pos_config__iface_order_mgmt
+msgid "Allows to manage orders in the frontend"
+msgstr "Interfazean eskaerak kudeatzeko aukera ematen du"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,help:pos_order_mgmt.field_pos_config__iface_reprint_done_order
+msgid "Allows to reprint already done orders in the frontend"
+msgstr "Interfazean jada egindako eskaerak berriro inprimatzeko aukera ematen du"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,help:pos_order_mgmt.field_pos_config__iface_return_done_order
+msgid "Allows to return already done orders in the frontend"
+msgstr "Interfazean jada egindako eskaerak itzultzeko aukera ematen du"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:36
+#, python-format
+msgid "Amount"
+msgstr "Zenbatekoa"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:17
+#, python-format
+msgid "Back"
+msgstr "Atzera"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/js/widgets.js:366
+#: code:addons/pos_order_mgmt/static/src/js/widgets.js:421
+#, python-format
+msgid "Can not execute this action because the POS is currently offline"
+msgstr "Ekintza hau ezin da exekutatu saltokia konexiorik gabe dagoelako momentuz"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/js/widgets.js:365
+#: code:addons/pos_order_mgmt/static/src/js/widgets.js:420
+#, python-format
+msgid "Connection error"
+msgstr "Konexio-errorea "
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:61
+#, python-format
+msgid "Create a new order based on this one"
+msgstr "Eskaera berria sortu honetan oinarrituta"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:64
+#, python-format
+msgid "Create a refund order of this order"
+msgstr "Eskaera hau itzultzeko eskaera sortu"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:34
+#, python-format
+msgid "Customer"
+msgstr "Bezeroa"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:93
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:102
+#, python-format
+msgid "DUPLICATE"
+msgstr "KOPIA"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:35
+#, python-format
+msgid "Date"
+msgstr "Data"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__iface_copy_done_order
+msgid "Duplicate Orders"
+msgstr "Eskaera bikoiztuak"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__iface_load_done_order_max_qty
+msgid "Maximum Orders to load"
+msgstr "Kargatzeko gehienezko eskaerak"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,help:pos_order_mgmt.field_pos_config__iface_load_done_order_max_qty
+msgid "Maximum number of orders to load on the PoS at its init. Set it to 0 to load none (it's still possible to load them by ticket code)."
+msgstr "Hasierako uneanan saltokian kargatzeko gehienezko eskaera-kopurua. Ezarri 0-n bat ere ez kargatzeko (oraindik ere posible da txartelaren kodearen bidez kargatzea)."
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__iface_order_mgmt
+msgid "Order Management"
+msgstr "Eskaeren kudeaketa"
+
+#. module: pos_order_mgmt
+#: model:ir.model,name:pos_order_mgmt.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Saltokien konfigurazioa"
+
+#. module: pos_order_mgmt
+#: model:ir.model,name:pos_order_mgmt.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Saltokiko eskaerak"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:58
+#, python-format
+msgid "Print a duplicate for this order"
+msgstr "Eskaera honen kopia bat inprimatu"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:87
+#, python-format
+msgid "Rectifies:"
+msgstr "Zuzenduta:"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:33
+#, python-format
+msgid "Ref."
+msgstr "Erref."
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_order__returned_order_reference
+msgid "Reference of the returned Order"
+msgstr "Itzulitako eskaeraren erreferentzia"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/js/widgets.js:243
+#, python-format
+msgid "Refund "
+msgstr "Itzulketa "
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_order__refund_order_ids
+msgid "Refund Orders"
+msgstr "Itzulketa eskaerak"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_order__refund_order_qty
+msgid "Refund Orders Quantity"
+msgstr "Itzulketa eskaera kopurua"
+
+#. module: pos_order_mgmt
+#: model_terms:ir.ui.view,arch_db:pos_order_mgmt.view_pos_order_form
+msgid "Refunds"
+msgstr "Itzulketak"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__iface_reprint_done_order
+msgid "Reprint Orders"
+msgstr "Eskaerak berinprimatu"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_config__iface_return_done_order
+msgid "Return Orders"
+msgstr "Birinprimatutuako aginduak"
+
+#. module: pos_order_mgmt
+#: model:ir.model.fields,field_description:pos_order_mgmt.field_pos_order__returned_order_id
+msgid "Returned Order"
+msgstr "Itzultitako eskaerak"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:76
+#, python-format
+msgid "Returned order:"
+msgstr "Itzultitako eskaera:"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/xml/pos.xml:21
+#, python-format
+msgid "Search Order"
+msgstr "Eskaera bilatu"
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/js/widgets.js:383
+#, python-format
+msgid "Unable to load some order lines because the products are not available in the POS cache.\n"
+"\n"
+"Please check that lines :\n"
+"\n"
+"  * "
+msgstr "Ezin izan da lerro batzuk kargatu produktuak ez daudelako eskuragarri saltokian.\n"
+"\n"
+"Mesedez, egiaztatu lerro hauek :\n"
+"\n"
+"  * "
+
+#. module: pos_order_mgmt
+#. openerp-web
+#: code:addons/pos_order_mgmt/static/src/js/widgets.js:382
+#, python-format
+msgid "Unknown Products"
+msgstr "Produktu ezezaguna"
+
