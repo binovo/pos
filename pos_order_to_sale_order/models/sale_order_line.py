@@ -19,5 +19,4 @@ class SaleOrderLine(models.Model):
             "product_uom_qty": order_line_data["qty"],
             "discount": order_line_data["discount"],
             "price_unit": order_line_data["price_unit"],
-            "tax_id": order_line_data["tax_ids"],
         }
