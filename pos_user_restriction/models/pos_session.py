@@ -17,3 +17,10 @@ class PosSession(models.Model):
         ):
             self = self.with_context(bypass_pos_user=True)
         return super().get_closing_control_data()
+
+    def load_pos_data(self):
+        if self.env.user.has_group(
+            "pos_user_restriction.group_assigned_points_of_sale_user"
+        ):
+            self = self.with_context(bypass_pos_user=True)
+        return super().load_pos_data()
