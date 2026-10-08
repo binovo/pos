@@ -1,20 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#   * pos_tare
+# 	* pos_tare
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-10 20:27+0000\n"
-"PO-Revision-Date: 2026-09-28 06:59+0000\n"
-"Last-Translator: ferdymercury <fernando.hueso@uv.es>\n"
-"Language-Team: \n"
-"Language: fr\n"
+"PO-Revision-Date: 2026-09-21 10:29+0000\n"
+"Last-Translator: Eugeni Chafer <eugeni@chafer.cat>\n"
+"Language-Team: none\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.15.2\n"
 
 #. module: pos_tare
@@ -22,61 +21,62 @@ msgstr ""
 #: code:addons/pos_tare/static/src/xml/Screens/ProductScreen/Orderline.xml:0
 #, python-format
 msgid "- Tare:"
-msgstr "- Tare :"
+msgstr "- Tara:"
 
 #. module: pos_tare
 #: model:ir.model,name:pos_tare.model_barcode_rule
 msgid "Barcode Rule"
-msgstr "Règle de code-barres"
+msgstr "Regla de codi de barres"
 
 #. module: pos_tare
 #: model:product.template,name:pos_tare.cheese_product_template
 msgid "Cheese by the Slice"
-msgstr "Fromage à la coupe"
+msgstr "Formatge al tall"
 
 #. module: pos_tare
 #: model:ir.model,name:pos_tare.model_res_config_settings
 msgid "Config Settings"
-msgstr "Réglages de la configuration"
+msgstr "Paràmetres de configuració"
 
 #. module: pos_tare
 #: model_terms:ir.ui.view,arch_db:pos_tare.res_config_settings_view_form
 msgid "Configure how to input Gross Weight."
-msgstr "Configurer comment saisir le poids brut."
+msgstr "Configurar com introduïr el pes brut."
 
 #. module: pos_tare
 #: model_terms:ir.ui.view,arch_db:pos_tare.res_config_settings_view_form
 msgid "Configure how to tare products to weight with a scale."
-msgstr "Configuer comment tarer les produits à peser avec la balance."
+msgstr "Configurar com tarar els productes amb una bàscula."
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #: code:addons/pos_tare/static/src/js/Screens/ScaleScreen/ScaleScreen.esm.js:0
+#: code:addons/pos_tare/static/src/js/Screens/ScaleScreen/ScaleScreen.esm.js:0
 #, python-format
 msgid "Error Computing Weight"
-msgstr "Erreur de calcul du poids"
+msgstr "Error calculant el pes"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #, python-format
 msgid "Feature Disabled"
-msgstr "Fonctionnalité désactivée"
+msgstr "Característica deshabilitada"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/xml/Screens/ScaleScreen/ScaleScreen.xml:0
 #, python-format
 msgid "Gross Weight"
-msgstr "Poids brut"
+msgstr "Pes brut"
 
 #. module: pos_tare
 #: model:ir.model.fields,field_description:pos_tare.field_pos_config__iface_gross_weight_method
 #: model:ir.model.fields,field_description:pos_tare.field_res_config_settings__pos_iface_gross_weight_method
 #: model_terms:ir.ui.view,arch_db:pos_tare.res_config_settings_view_form
 msgid "Gross Weight Input Method"
-msgstr "Méthode de saisie du poids brut"
+msgstr "Mètode d'introducció de pes brut"
 
 #. module: pos_tare
 #. odoo-javascript
@@ -84,87 +84,87 @@ msgstr "Méthode de saisie du poids brut"
 #: code:addons/pos_tare/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "Gross Weight:"
-msgstr "Poids brut :"
+msgstr "Pes brut:"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #, python-format
 msgid "Incorrect Gross Weight Value"
-msgstr "Poids brut incorrecte"
+msgstr "Valor de pes brut incorrecte"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #, python-format
 msgid "Incorrect Tare Value"
-msgstr "Tare incorrecte"
+msgstr "Valor de tara incorrecte"
 
 #. module: pos_tare
 #: model:ir.model.fields.selection,name:pos_tare.selection__pos_config__iface_gross_weight_method__scale
 msgid "Input Gross Weight via Scale"
-msgstr "Saisir le poids brut via la balance"
+msgstr "Introduir pes brut mitjançant bàscula"
 
 #. module: pos_tare
 #: model:ir.model.fields.selection,name:pos_tare.selection__pos_config__iface_gross_weight_method__manual
 msgid "Input the Gross Weight manually"
-msgstr "Saisir le poids brut manuellement"
+msgstr "Introduïr pes brut manualment"
 
 #. module: pos_tare
 #: model:ir.model.fields.selection,name:pos_tare.selection__pos_config__iface_tare_method__manual
 msgid "Input the tare manually"
-msgstr "Saisir la tare manuellement"
+msgstr "Introduir tara manualment"
 
 #. module: pos_tare
 #: model:ir.model.fields.selection,name:pos_tare.selection__pos_config__iface_tare_method__both
 msgid "Manual input and barcode"
-msgstr "Saisie manuelle et par code-barres"
+msgstr "Introducció manual i codi de barres"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #, python-format
 msgid "Please set a numeric value in the gross weight field."
-msgstr "Veuillez saisir une valeur numérique pour le poids brut."
+msgstr "Si us plau, introduïr valor numèric en el camp de pes brut."
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #, python-format
 msgid "Please set a numeric value in the tare field, or let empty."
-msgstr "Veuillez saisir une valeur numérique pour la tare, ou laisser vide."
+msgstr "Si us plau, introduïr valor numèric en el camp de tara, o deixar buit."
 
 #. module: pos_tare
 #: model:ir.model,name:pos_tare.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "Paramétrage du point de vente"
+msgstr "Configuració de Punt de Venda"
 
 #. module: pos_tare
 #: model:ir.model,name:pos_tare.model_pos_order_line
 msgid "Point of Sale Order Lines"
-msgstr "Lignes des commandes du point de vente"
+msgstr "Línies de comanda de Punt de Venda"
 
 #. module: pos_tare
 #: model:ir.model,name:pos_tare.model_pos_session
 msgid "Point of Sale Session"
-msgstr "Session du point de vente"
+msgstr "Sessió de Punt de Venda"
 
 #. module: pos_tare
 #: model:ir.model,name:pos_tare.model_product_template
 msgid "Product"
-msgstr "Produit"
+msgstr "Producte"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #, python-format
 msgid "Quantity lower or equal to zero"
-msgstr "Quantité inférieure ou égale à zéro"
+msgstr "Quantitat menor o igual a zero"
 
 #. module: pos_tare
 #: model:ir.model.fields.selection,name:pos_tare.selection__pos_config__iface_tare_method__barcode
 msgid "Scan a barcode to set the tare"
-msgstr "Scanner un code-barres pour appliquer une tare"
+msgstr "Escanejar codi de barres per a fixar la tara"
 
 #. module: pos_tare
 #: model:ir.model.fields,help:pos_tare.field_pos_config__iface_tare_method
@@ -175,10 +175,12 @@ msgid ""
 "* 'barcode': scan a barcode to tare the selected order line;\n"
 "* 'both': manual input and barcode methods are enabled;"
 msgstr ""
-"Selection de la méthode de tare : \n"
-"* 'manuelle' : l'écran de pesée a un nouveau champ de saisie pour la tare ;\n"
-"* 'code-barres' : scanner un code-barres pour tarer la ligne sélectionnée ;\n"
-"* 'les deux' : saisie manuelle ou par code-barres ;"
+"Introduir el mètode de tara:\n"
+"* 'manual': la pantalla de la bàscula té un camp específic per introduir la "
+"tara;\n"
+"* 'barcode': escanejar un codi de barres per a tarar la línea de la comanda "
+"seleccionada;\n"
+"* 'both': activar ambdues formes, introducció manual i amb codi de barres;"
 
 #. module: pos_tare
 #: model:ir.model.fields,help:pos_tare.field_product_product__tare_weight
@@ -187,8 +189,8 @@ msgid ""
 "Set here Constant tare weight for the given product. This tare will be "
 "subtracted when the product is weighed."
 msgstr ""
-"Saisir une valeur de tare par défaut pour ce produit. Cette tare sera "
-"soustraite quand le produit est pesé."
+"Introduïr açí el pes fix de tara per a aquest producte. La tara es restarà "
+"quan es pesi el producte."
 
 #. module: pos_tare
 #. odoo-javascript
@@ -198,32 +200,32 @@ msgstr ""
 #: model:ir.model.fields.selection,name:pos_tare.selection__barcode_rule__type__tare
 #, python-format
 msgid "Tare"
-msgstr "Tare"
+msgstr "Tara"
 
 #. module: pos_tare
 #: model:ir.model.fields,field_description:pos_tare.field_pos_config__iface_tare_method
 #: model:ir.model.fields,field_description:pos_tare.field_res_config_settings__pos_iface_tare_method
 #: model_terms:ir.ui.view,arch_db:pos_tare.res_config_settings_view_form
 msgid "Tare Input Method"
-msgstr "Méthode de saisie de la tare"
+msgstr "Mètode d'introducció de tara"
 
 #. module: pos_tare
 #: model_terms:ir.ui.view,arch_db:pos_tare.res_config_settings_view_form
 msgid "Tare UoM"
-msgstr "UdM de la tare"
+msgstr "Tara UdM"
 
 #. module: pos_tare
 #: model:ir.model.fields,field_description:pos_tare.field_product_product__tare_weight
 #: model:ir.model.fields,field_description:pos_tare.field_product_template__tare_weight
 msgid "Tare Weight"
-msgstr "Poids de la tare"
+msgstr "Pes de tara"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "Tare:"
-msgstr "Tare :"
+msgstr "Tara:"
 
 #. module: pos_tare
 #. odoo-javascript
@@ -231,46 +233,44 @@ msgstr "Tare :"
 #, python-format
 msgid ""
 "The quantity is lower or equal to zero. Are you sure you want to continue ?"
-msgstr ""
-"La quantité est inférieure ou égale à zéro. Etes-vous sûr de vouloir "
-"continuer ?"
+msgstr "La quantitat es menor o igual a zero. Segur/a de voler continuar?"
 
 #. module: pos_tare
 #: model:ir.model.fields,field_description:pos_tare.field_barcode_rule__type
 msgid "Type"
-msgstr "Type"
+msgstr "Tipus"
 
 #. module: pos_tare
 #: model:ir.model.fields,field_description:pos_tare.field_pos_config__iface_tare_uom_id
 #: model:ir.model.fields,field_description:pos_tare.field_res_config_settings__pos_iface_tare_uom_id
 msgid "Unit of Measure of the tare"
-msgstr "Unité de mesure de la tare"
+msgstr "Unitat de mesura de la tara"
 
 #. module: pos_tare
 #: model_terms:ir.ui.view,arch_db:pos_tare.res_config_settings_view_form
 msgid "Unit of Measure of the tares."
-msgstr "Unité de mesure des tares."
+msgstr "Unitat de mesura de les tares."
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #, python-format
 msgid "We cannot apply this tare"
-msgstr "Impossible d'appliquer cette tare"
+msgstr "No podem aplicar aquesta tara"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/Screens/ProductScreen/ProductScreen.esm.js:0
 #, python-format
 msgid "We cannot apply this tare barcode"
-msgstr "Impossible d'appliquer ce code-barres de tare"
+msgstr "No podem aplicar aquest codi de barres de tara"
 
 #. module: pos_tare
 #. odoo-javascript
 #: code:addons/pos_tare/static/src/js/tools.esm.js:0
 #, python-format
 msgid "We cannot cast a weight in %s into %s."
-msgstr "Impossible de convertir le poids de %s à %s."
+msgstr "No podem convertir un pes en %s a %s."
 
 #. module: pos_tare
 #. odoo-javascript
@@ -280,5 +280,5 @@ msgid ""
 "You can not set the tare. To be able to set the tare manually you have to "
 "change the tare input method in the POS configuration"
 msgstr ""
-"Vous ne pouvez pas saisir manuellement la tare. pour le faire, veuillez "
-"changer la configuration de votre point de vente"
+"No pots establir la tara. Per a afegir la tara manualmente has de canviar el "
+"mètode d'introducció de tara a la configuració del PdV"
