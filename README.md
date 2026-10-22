@@ -23,6 +23,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [pos_access_right](pos_access_right/) | 16.0.1.1.0 |  | Point of Sale - Extra Access Right for certain actions
+[pos_account_bank_statement_line](pos_account_bank_statement_line/) | 16.0.1.0.0 |  | PoS Account Bank Statement Line
 [pos_auto_invoice](pos_auto_invoice/) | 16.0.1.0.0 |  | Allow to set POS orders as to-invoice by default
 [pos_bypass_global_discount](pos_bypass_global_discount/) | 16.0.1.0.1 |  | POS Bypass Global Discount
 [pos_cash_control_override](pos_cash_control_override/) | 16.0.1.0.0 |  | Override bare PoS user cash control restrictions
@@ -32,6 +33,7 @@ addon | version | maintainers | summary
 [pos_config_logo](pos_config_logo/) | 16.0.1.0.0 |  | Set logotypes different from the company's one
 [pos_container_deposit](pos_container_deposit/) | 16.0.1.0.1 |  | This module is used to manage container deposits for products in Point of Sale.
 [pos_customer_comment](pos_customer_comment/) | 16.0.1.0.3 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Display Customer comment in the PoS front office and allow to edit and save it by the cashier
+[pos_customer_required](pos_customer_required/) | 16.0.1.0.0 |  | Point of Sale Require Customer
 [pos_customer_tree_view_vat](pos_customer_tree_view_vat/) | 16.0.1.0.1 | <a href='https://github.com/mileo'><img src='https://github.com/mileo.png' width='32' height='32' style='border-radius:50%;' alt='mileo'/></a> | Point of Sale: Show VAT number at Customer Tree View
 [pos_daily_sales_reports_category_only](pos_daily_sales_reports_category_only/) | 16.0.1.0.1 |  | Show Sales Reports by Category
 [pos_default_partner](pos_default_partner/) | 16.0.1.0.3 |  | Add a default customer in pos order
